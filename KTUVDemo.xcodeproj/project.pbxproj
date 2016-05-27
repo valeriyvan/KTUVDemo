@@ -306,7 +306,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = KT;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = keighl;
 				TargetAttributes = {
 					CF4DF1EE19702CF40080A1D9 = {
@@ -439,6 +439,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -500,6 +501,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KTUVDemo/KTUVDemo-Prefix.pch";
 				INFOPLIST_FILE = "KTUVDemo/KTUVDemo-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keighl.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -514,6 +516,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KTUVDemo/KTUVDemo-Prefix.pch";
 				INFOPLIST_FILE = "KTUVDemo/KTUVDemo-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keighl.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -535,6 +538,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "KTUVDemoTests/KTUVDemoTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keighl.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -553,6 +557,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KTUVDemo/KTUVDemo-Prefix.pch";
 				INFOPLIST_FILE = "KTUVDemoTests/KTUVDemoTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keighl.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -578,6 +583,7 @@
 				CF4DF20219702CF40080A1D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF4DF20319702CF40080A1D9 /* Build configuration list for PBXNativeTarget "KTUVDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -586,6 +592,7 @@
 				CF4DF20519702CF40080A1D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
